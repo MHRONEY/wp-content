@@ -271,6 +271,12 @@ body.dark-theme {
   font-size: 1.5rem;
 }
 
+
+.btn {
+  padding: 30px;
+  text-align: center;
+}
+
 /*=============== ABOUT ===============*/
 .about__container {
   gap: 2.5rem;
@@ -537,6 +543,43 @@ body.dark-theme {
   background: url(/assets/img/grid3.jpg) no-repeat center center/cover;
 
 }
+
+.grid4_img{
+
+  background: url(/assets/img/grid4.jpg) no-repeat center center/cover;
+
+}
+
+.grid5_img{
+
+  background: url(/assets/img/grid5.jpg) no-repeat center center/cover;
+
+}
+
+.grid6_img{
+
+  background: url(/assets/img/grid6.jpg) no-repeat center center/cover;
+
+}
+
+.grid7_img{
+
+  background: url(/assets/img/grid7.jpg) no-repeat center center/cover;
+
+}
+
+.grid8_img{
+
+  background: url(/assets/img/grid8.jpg) no-repeat center center/cover;
+
+}
+
+
+
+
+
+
+
 
 
 
