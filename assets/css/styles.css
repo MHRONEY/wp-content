@@ -293,53 +293,48 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color-lighten);
-  padding-bottom: 2rem;
+  background-color: #333e47;
+ 
 }
 
 .footer__container {
   row-gap: 2rem;
 }
 
-.footer__logo, .footer__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-75);
-}
 
-.footer__logo {
-  display: inline-block;
-  font-weight: var(--font-semi-bold);
-  color: var(--title-color);
-}
+
+
 
 .footer__description, .footer__link {
   font-size: var(--small-font-size);
 }
 
 .footer__links {
-  display: grid;
+  display: flex;
   row-gap: .5rem;
+}
+.footer__links li{
+  margin-right: 10px;
 }
 
 .footer__link {
-  color: var(--title-color);
+  color: #fff;
 }
 
-.footer__social {
+.footer__content{
   display: flex;
-  column-gap: 1.5rem;
+  justify-content: space-between;
 }
 
-.footer__social-link {
-  font-size: 1.25rem;
-  color: var(--title-color);
-}
+
+
+
 
 .footer__copy {
   margin-top: 6rem;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
+  color:#fff ;
 }
 
 /*=============== SCROLL UP ===============*/
