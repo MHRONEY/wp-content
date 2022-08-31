@@ -16,9 +16,80 @@
 
 <body>
     <!--=============== HEADER ===============-->
+
+
+
+
     <header class="header" id="header">
+        <div class="top_section" style="background-color: #fff">
+
+
+            <div class="top_container">
+
+                <div class="search">
+                    <!-- input tag -->
+                    <input id="searchbar" onkeyup="search_animal()" type="text" name="search"
+                        placeholder="Search ...">
+
+                </div>
+
+                <div class="top_logo">
+                    <a href="#" class="nav__logo">INDUSTRY DIVE</a>
+                    <p>Engineering at industry dive</p>
+                </div>
+
+                <div>
+                <!---Popup subscribe-->
+
+                <div id="popup1" class="overlay">
+                    <div class="popup"> <a class="close" href="#">&times;</a>
+                      <div id="dialog" class="window">
+                        
+                        <div class="box">
+                          <div class="newletter-title">
+                            <h2>Sign up &amp; get 10% off</h2>
+                          </div>
+                          <div class="box-content newleter-content">
+                            <label>Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks and exclusive offers.</label>
+                            <div id="frm_subscribe">
+                              <form name="subscribe" id="subscribe_popup">
+                                <div>
+                                  <!-- <span class="required">*</span><span>Email</span>-->
+                                  <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail">
+                                  <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
+                                  <div id="notification"></div>
+                                  <a class="button" onclick="email_subscribepopup()"><span>Subscribe Now</span></a> </div>
+                              </form>
+                              <div class="subscribe-bottom">
+                                <input type="checkbox" id="newsletter_popup_dont_show_again">
+                                <label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
+                              </div>
+                            </div>
+                            <!-- /#frm_subscribe -->
+                          </div>
+                          <!-- /.box-content -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <a class="btn btn-primary skip" href="#popup1">Subscribe Now</a>
+                
+                
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
         <nav class="nav container">
-            <a href="#" class="nav__logo">INDUSTRY DIVE</a>
+
+
+
+
+
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -35,7 +106,7 @@
                         <a href="#contact" class="nav__link">Food</a>
                     </li>
 
-                    <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                  
                 </ul>
             </div>
 
@@ -43,9 +114,13 @@
                 <i class='bx bx-grid-alt'></i>
             </div>
 
-            <a href="#" class="button button__header">Subscribe Now</a>
+ 
         </nav>
     </header>
+
+
+
+
 
     <main class="main">
         <!--=============== HOME ===============-->
@@ -74,11 +149,6 @@
 
         <section class="container">
 
-            <div>
-
-                <h1>MORE FEATURE POST</h1>
-
-            </div>
 
             <div class="grid-container">
                 <div class="item1 grid1_img">
@@ -111,7 +181,7 @@
                         <p>1 MIN RED | READ MORE -> </p>
                     </div>
                 </div>
-              </div>
+            </div>
             </div>
 
         </section>
@@ -121,131 +191,131 @@
 
 
 
-              <section class="container">
-                <div>
+        <section class="container">
+            <div>
 
-                    <h1>TRENDING NOW</h1>
+                <h1>TRENDING NOW</h1>
 
+            </div>
+
+
+
+            <div class="grid-container">
+                <div class="item4 grid1_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item5 grid2_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item6 grid3_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+
+
+        <!---Trending Now-->
+
+
+
+        <section class="container">
+            <div>
+
+                <h1>LATEST POST</h1>
+
+            </div>
+
+            <div class="grid-container2">
+                <div class="item5 grid7_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item5 grid1_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item5 grid8_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item5 grid1_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item5 grid4_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
+                </div>
+                <div class="item5 grid3_img">
+                    <div class="grid_text">
+
+                        <p>
+                            FEATURED | FOOD
+                        </p>
+                        <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
+                        <p>1 MIN RED | READ MORE -> </p>
+                    </div>
                 </div>
 
+            </div>
+
+            <div class="btn"><button class="button">LOAD MORE</button></div>
 
 
-                <div class="grid-container">
-                    <div class="item4 grid1_img">
-                        <div class="grid_text">
-    
-                            <p>
-                                FEATURED | FOOD
-                            </p>
-                            <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                            <p>1 MIN RED | READ MORE -> </p>
-                        </div>
-                    </div>
-                    <div class="item5 grid2_img">
-                        <div class="grid_text">
-    
-                            <p>
-                                FEATURED | FOOD
-                            </p>
-                            <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                            <p>1 MIN RED | READ MORE -> </p>
-                        </div>
-                    </div>
-                    <div class="item6 grid3_img">
-                        <div class="grid_text">
-    
-                            <p>
-                                FEATURED | FOOD
-                            </p>
-                            <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                            <p>1 MIN RED | READ MORE -> </p>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-    
-            </section>
-
-
-
-                 <!---Trending Now-->
-
-
-
-                 <section class="container">
-                    <div>
-    
-                        <h1>LATEST POST</h1>
-    
-                    </div>
-
-                    <div class="grid-container2">
-                        <div class="item5 grid7_img">
-                            <div class="grid_text">
-    
-                                <p>
-                                    FEATURED | FOOD
-                                </p>
-                                <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                                <p>1 MIN RED | READ MORE -> </p>
-                            </div>
-                        </div>
-                        <div class="item5 grid1_img">  <div class="grid_text">
-    
-                            <p>
-                                FEATURED | FOOD
-                            </p>
-                            <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                            <p>1 MIN RED | READ MORE -> </p>
-                        </div>
-                    </div>
-                        <div class="item5 grid8_img">
-                            <div class="grid_text">
-    
-                                <p>
-                                    FEATURED | FOOD
-                                </p>
-                                <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                                <p>1 MIN RED | READ MORE -> </p>
-                            </div>
-                        </div>  
-                        <div class="item5 grid1_img">
-                            <div class="grid_text">
-    
-                                <p>
-                                    FEATURED | FOOD
-                                </p>
-                                <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                                <p>1 MIN RED | READ MORE -> </p>
-                            </div>
-                        </div>
-                        <div class="item5 grid4_img">
-                            <div class="grid_text">
-    
-                                <p>
-                                    FEATURED | FOOD
-                                </p>
-                                <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                                <p>1 MIN RED | READ MORE -> </p>
-                            </div>
-                        </div>
-                        <div class="item5 grid3_img">  <div class="grid_text">
-    
-                            <p>
-                                FEATURED | FOOD
-                            </p>
-                            <h1>LABORE SAEPE HARUM OMNIS QUI</h1>
-                            <p>1 MIN RED | READ MORE -> </p>
-                        </div>
-                    </div>  
-                     
-                      </div>
-
-                      <div class="btn"><button class="button">LOAD MORE</button></div>
-    
-    
-    
-                    
 
 
 
@@ -254,31 +324,36 @@
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
         <div class="footer__container container grid">
-         
 
-           
+
+
 
             <div class="footer__content">
-     
-                <ul class="footer__links">
-                    <li><a href="#" class="footer__link">Education</a></li>
-                    <li><a href="#" class="footer__link">Community</a></li>
-                    <li><a href="#" class="footer__link">Activities</a></li>
-                    <li><a href="#" class="footer__link">Food</a></li>
-                </ul>
 
                 <div>
+
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Education</a></li>
+                        <li><a href="#" class="footer__link">Community</a></li>
+                        <li><a href="#" class="footer__link">Activities</a></li>
+                        <li><a href="#" class="footer__link">Food</a></li>
+                    </ul>
+                    <p class="footer__copy">&#169; industry dive. All right reserved</p>
+    
+                </div>
+              
+                <div class="footer_subscribe">
                     <p class="footer__link">Sign up for our newsletter</p>
-                    <button class="button">Subscribe</button>
+                    <div class="btn"><a class=" btn-primary skip" style="background-color:#fff ; color:black" href="#popup1">Subscribe Now</a></div>
                 </div>
 
             </div>
 
-        
+
 
         </div>
 
-        <p class="footer__copy">&#169; industry dive. All right reserved</p>
+    
     </footer>
 
     <!--=============== SCROLL UP ===============-->
@@ -288,6 +363,8 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
+
+   
 </body>
 
 </html>
